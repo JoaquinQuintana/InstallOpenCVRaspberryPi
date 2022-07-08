@@ -19,6 +19,7 @@ deleted all at once by running the shell script ``` ./deleteJPGs.sh ``` .
 
 Enjoy!
 
-Credit given to the following link for providing guidance on how to create these scripts and for providing information on dependencies needed to install OpenCV. 
+Credit given to the following links for providing guidance on how to create these scripts and for providing information on dependencies needed to install OpenCV. 
 
 1. [Single Board Blog By:  Can Berk Durmus ](https://singleboardblog.com/install-python-opencv-on-raspberry-pi/)
+2. [Motion Detection](https://www.youtube.com/watch?v=MkcUgPhOlP8)
