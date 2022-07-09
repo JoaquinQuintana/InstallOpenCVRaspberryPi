@@ -8,7 +8,7 @@ iterator = 0
 #directory to save image to
 dir  = str(os.getcwd())+"/savedImages"
 #check if directory exists
-if os.path.isfile(dir):
+if not os.path.isfile(dir):
     #print('Directory exists')
     os.mkdir("savedImages")
 
@@ -44,7 +44,7 @@ while(True):
                 cv2.rectangle(frame,(x,y),(x+w,y+h),(0,255,0),2)
                 #save files if motion is detected to the directory
                 cv2.imwrite(os.path.join(dir , 'smile %s.jpg' % iterator), frame)
-        cv2.imshow("Kitty Cam",frame)
+        cv2.imshow("Critter Cam",frame)
 
 
         #mange images order

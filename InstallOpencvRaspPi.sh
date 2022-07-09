@@ -1,5 +1,4 @@
 #!/bin/sh
-
 #update os
 sudo apt-get update && sudo apt-get upgrade
 #clear terminal
@@ -24,3 +23,8 @@ sudo apt install -y build-essential cmake pkg-config libjpeg-dev libtiff5-dev li
 pip install opencv-contrib-python==4.5.3.56
 #remove unused packages
 sudo apt autoremove
+#moves python files into env folder
+cd ..
+mv deleteJPGs.sh motionDetectionCapture.py $folderName
+#create directory to store images
+cd $folderName
