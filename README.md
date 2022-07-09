@@ -1,6 +1,6 @@
 # InstallOpenCVRaspberryPi
 
-This is a simple project I'm putting together for tracking animals in their natural environment. Here I to installed [OpenCV](https://opencv.org/) on the [Raspberry Pi 4 B](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) with the standard [Raspberry Pi camera](https://www.raspberrypi.com/products/camera-module-v2/) connected to capture objects in motion.  
+This is a simple project I'm putting together for tracking animals in their natural environment. Here I to installed [OpenCV](https://opencv.org/) on the [Raspberry Pi 4 B](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) with the standard [Raspberry Pi camera](https://www.raspberrypi.com/products/camera-module-v2/) connected to capture objects in motion. Here is a simple [Youtube](https://www.youtube.com/watch?v=RzcDYHsRxlY) video demonstrating the code.
 
 ## Part 1: Install OpenCV
 
